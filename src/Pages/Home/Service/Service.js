@@ -11,12 +11,12 @@ const Service = (props) => {
     return (
         <Grid item xs={4} sm={4} md={4}>
              
-            <Card sx={{ minWidth: 275 }}>
+            <Card sx={{ minWidth: 275, border:0, boxShadow:0 }}>
                 <CardContent>
                     <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
                         {img}
                     </Typography>
-                    <Typography style={{fontWeight:'bold'}} variant="h5" component="div">
+                    <Typography style={{fontWeight:'bold', margin:"10px 0"}} variant="h5" component="div">
                         {name}
                     </Typography>
                     <Typography sx={{ mb: 1.5 }} color="text.secondary">
@@ -24,9 +24,7 @@ const Service = (props) => {
                     </Typography>
                     
                 </CardContent>
-                <CardActions>
-                    <Button size="small">Learn More</Button>
-                </CardActions>
+                
             </Card>
         </Grid>
     );
