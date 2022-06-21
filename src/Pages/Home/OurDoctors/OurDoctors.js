@@ -7,7 +7,7 @@ import OurDoctor from './OurDoctor';
 
 const doctors = [
     {
-        name: 'Dr. Jahed Ahmed',
+        name: 'Dr.  Ahmed',
         call:  '+8801726308391',
         img: <img style={{width:'100%', height:'100%'}} src="https://i.ibb.co/sbj6Ms5/05.jpg" alt="" srcset="" />
 
