@@ -7,10 +7,11 @@ import { Button, Container, Typography } from '@mui/material';
 
 const bannerBg = {
     background: `url(${bg})`,
-    // backgroundPosition: 'center',
+    backgroundPosition: 'center',
     // backgroundSize: 'cover',
-    // marginTop: 18,
+    marginTop: 30,
     // margin: 80
+    // width: 'full'
     
 }
 
