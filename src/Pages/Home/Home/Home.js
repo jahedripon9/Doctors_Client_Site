@@ -4,6 +4,7 @@ import AppointmentBanner from '../AppointmentBanner/AppointmentBanner';
 import Banner from '../Banner/Banner';
 import Blog from '../Blogs/Blog';
 import DentalCare from '../DentalCare/DentalCare';
+import HoursLocationContact from '../HoursLocationContact/HoursLocationContact';
 
 import OurDoctors from '../OurDoctors/OurDoctors';
 import Services from '../Services/Services';
@@ -14,6 +15,7 @@ const Home = () => {
         <div>
             <Navigation></Navigation>
             <Banner></Banner>
+            <HoursLocationContact></HoursLocationContact>
             <Services></Services>
             <DentalCare></DentalCare>
             <AppointmentBanner></AppointmentBanner>
